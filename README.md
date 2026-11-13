@@ -94,7 +94,6 @@ docker build -t tarefas:2.0 .
 docker run -p 8000:8000 -e DATABASE_USERNAME=postgres -e DATABASE_PASSWORD=postgres -e DATABASE_ADDRESS=host.docker.internal:5432 -e DATABASE=tarefas tarefas:2.0
 ```
 
-A imagem também está publicada no Docker Hub: https://hub.docker.com/r/otavioogo/tarefas
 
 ## CI/CD
 
