@@ -7,6 +7,16 @@ FastAPI e persistência em PostgreSQL, integrada a um pipeline completo de integ
 contínua (CI) e entrega contínua (CD) via GitHub Actions, com publicação de imagem no
 Docker Hub e implantação automatizada no Render.
 
+## Ambiente em produção
+
+A aplicação está implantada no Render e disponível publicamente:
+
+- **API:** https://tarefas-api-x552.onrender.com
+- **Documentação interativa:** https://tarefas-api-x552.onrender.com/docs
+
+> A instância utiliza o plano gratuito do Render, que hiberna após 15 minutos sem
+> acesso. A primeira requisição depois desse período pode levar cerca de 50 segundos.
+
 ## Descrição da aplicação
 
 A API permite criar, listar, consultar, concluir e remover tarefas. Cada tarefa possui
